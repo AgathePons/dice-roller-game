@@ -30,3 +30,30 @@ body {
   height: 100px;
   margin: 1em;
 }
+
+.player-control {
+  padding: 20px;
+  background-color: purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-control button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0;
+  background-color: orangered;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.player-control input {
+  margin-bottom: 20px;
+}
+
+.player-control button:hover {
+  cursor: pointer;
+}
